@@ -19,13 +19,12 @@ This project aims to compare the performance of a serial matrix multiplication p
 - `README.md`: Project documentation.
 
 # Compilation and Execution
-# Serial Version
+#Serial Version
 To compile and run the serial version:
 ```bash
 gcc -o serial matrix_multiplication_serial.c
 ./serial
-
-# Parallel Version
+#Parallel Version
 To compile and run the parallel version:
 ```bash
 gcc -fopenmp -o parallel matrix_multiplication_parallel.c
